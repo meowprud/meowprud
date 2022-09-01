@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+header{
+    box-sizing: border-box;
+    margin:0 0 0 0;      
+}
+
+body{
+    margin: 0;
+    padding:0;
+    background: rgb(228, 191, 191);
+    overflow-x: hidden;
+}
+
+.logo{
+    margin-right: auto;
+    margin-left: 10px;
+    width: 11vw;
+    height: 6vh;    
+    cursor: pointer;
+    size: 10%;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    background-color: #000;
+    margin-top:0;
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+    position: absolute;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    color: #fe001a;
+}
+
+
+.nav_links li a:hover {
+    transition: all 0.3s ease 0s;
+    opacity: 0.7;
+}
+
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(244, 0, 0);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgb(242, 17, 4);
+    opacity: 0.8;
+}
+
+.one{
+    display: flex;
+    margin:0;
+    padding:0;
+    height: 700px;
+    width: 100%;
+    background: linear-gradient(72deg, #bd7d7d 2%, rgb(148, 11, 4) 98%);
+    margin-bottom:100px;
+}
+
+.content{
+    height: 520px;
+    width: 1120px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation{
+    position: relative;
+    bottom: 20px;
+    left:90%;
+    transform: translate(-50%);
+    display: flex;
+    
+}
+
+
+.bar{
+    width: 40px;
+    height: 5px;
+    border: 2px solid rgb(148, 11, 4);
+    margin: 6px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover{
+    background-color: rgb(148, 11, 4) ;
+
+}
+
+input{
+    display: none;
+}
+
+.slides{
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide{
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0%;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1{
+    margin-left:-60%;
+}
+
+#slide5:checked ~ .s1{
+    margin-left:-80%;
+}
+
+.pai{
+    position: relative;
+    display: flex;
+    height: 280px;
+    width: 100%;
+    margin: 140px 150px;
+   
+    
+}
+
+.sobre{
+    position: relative;
+    width: 50%;
+    height: 300px;
+    
+   
+}
+
+p{
+    font-family: "Montserrat" , sans-serif;
+    text-align: justify left;
+    line-height: 17px;
+    width: 35rem;
+    font-size: 14px;
+    color: #000;
+    margin-left: 30px;
+    letter-spacing: 1px;
+    word-spacing: 3.5px;
+    line-height: 26px;
+    word-wrap: normal;
+    
+}
+
+img{
+   width: 20%;
+   height: 100%;
+
+}
+
+.imagem-lateral{
+   margin-right: 370px;
+   display: flex;
+   justify-content: flex-end;
+   margin-bottom: 10px;
+   width: 100%;
+   
+
+}
+
+.botao button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(218, 219, 141);
+    border: 2px #000;
+    color: #000;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s; 
+}
+.botao button:hover{
+    background: #003000;
+    
+}
+
+.botao{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 42vh;
+    margin-left: -9vw;
+}
